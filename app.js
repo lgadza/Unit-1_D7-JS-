@@ -83,11 +83,8 @@ if (name1 !== name2) {
   console.log(true);
 }
 
-// if (name1.toLowerCase() === name2.toLowerCase()) {
-//   console.log(`name1 is the same as name2 when both are lowercase`);
-// }
-if (name1 == name2) {
-  console.log(`${name1} is the same as ${name2} when both are lowercase`);
+if (name1.toLowerCase() === name2.toLowerCase()) {
+  console.log(`name1 is the same as name2 when both are lowercase`);
 }
 
 //TODO
