@@ -15,8 +15,8 @@ console.log(isMale);
 */
 
 /* WRITE YOUR ANSWER HERE */
-let num1; // = 0;
-let num2; // = 0;
+let num1 = 5;
+let num2 = 8;
 if (num1 === 8 && num2 === 8) {
   console.log(`The value of both num1 and num2 is 8 `);
 } else if (num1 === 8) {
@@ -128,7 +128,7 @@ let percentageOfNumber = (percent / 100) * number;
 */
 
 /* WRITE YOUR ANSWER HERE */
-let num; //= 7;
+let num = 6;
 if (num % 2 === 0) {
   console.log(`num is even`);
 } else {

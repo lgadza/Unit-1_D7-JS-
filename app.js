@@ -50,7 +50,7 @@ console.log(sum);
 
 /* WRITE YOUR ANSWER HERE */
 
-let x = 12;
+let y = 12;
 
 /* EXERCISE 5
  Create a variable called name and assign to it the string "John Doe".
@@ -65,7 +65,7 @@ let name = "John Doe";
 
 /* WRITE YOUR ANSWER HERE*/
 
-let result = 12 - x;
+let result = 12 - y;
 console.log(result);
 
 /* EXERCISE 7
@@ -95,9 +95,30 @@ if (name1.toLowerCase() === name2.toLowerCase()) {
 
 /* WRITE YOUR ANSWER HERE*/
 
-// let x = 3;
-// if (x === 3) {
-//   console.log("three");
+let x = 7;
+let literalValue =
+  x === 1
+    ? `One`
+    : x === 2
+    ? `Two`
+    : x === 3
+    ? `Three`
+    : x === 4
+    ? `Four`
+    : x === 5
+    ? `Five`
+    : x === 6
+    ? `Six`
+    : x === 7
+    ? `Seven`
+    : x === 8
+    ? `Eight`
+    : x === 9
+    ? `Nine`
+    : x === 10
+    ? `Ten`
+    : `not below 10`;
+console.log(literalValue);
 // }
 
 /* EXERCISE 9
