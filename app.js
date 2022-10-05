@@ -106,16 +106,14 @@ if (name1.toLowerCase() === name2.toLowerCase()) {
 */
 
 /* WRITE YOUR ANSWER HERE*/
-let temp = 25;
-temperature =
+let temp = -7;
+let temperature =
   temp >= 35
-    ? console.log(`Do not go outside, it is hot`)
+    ? `Do not go outside, it is hot`
     : temp > 15 && temp < 35
-    ? console.log(
-        `You can go and enjoy yourself outside, the weather is great!`
-      )
+    ? `You can go and enjoy yourself outside, the weather is great!`
     : temp < 0
-    ? console.log(`Do not go outside, it is freezing`)
-    : console.log("Stay indoors");
+    ? `Do not go outside, it is freezing`
+    : `Stay indoors`;
 
 console.log(temperature);
