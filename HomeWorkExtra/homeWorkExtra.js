@@ -7,7 +7,7 @@
 
 /* WRITE YOUR ANSWER HERE */
 let gender = "male";
-let isMale = gender === "male" ? console.log(true) : console.log(false);
+let isMale = gender === "male" ? true : false;
 console.log(isMale);
 
 /*EX 2
